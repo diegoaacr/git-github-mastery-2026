@@ -77,4 +77,4 @@ git@github.com:user/repo.git
 
 ## 🚀 Siguiente paso
 
-👉 [Create Repository](../03-first-steps/01-create-repository.md)
+👉 [Signing Commits](./07-signing-commits.md)
