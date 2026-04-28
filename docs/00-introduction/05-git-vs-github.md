@@ -106,7 +106,7 @@ Pero después se vuelve una herramienta diaria.
 
 ## 🚀 Siguiente paso
 
-👉 [Fundamentals](../01-fundamentals/01-version-control-systems.md)
+👉 [Fundamentals](../01-fundamentals/01-concepts/01-version-control-systems.md)
 
 * Trabajar en equipo
 * Hacer Pull Requests

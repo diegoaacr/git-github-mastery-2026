@@ -1,50 +1,64 @@
 # Git & GitHub Mastery 2026
 
-Repositorio completo para aprender **Git y GitHub desde cero hasta nivel avanzado**, con enfoque práctico y profesional.
+Repositorio completo para aprender **Git y GitHub desde cero hasta nivel profesional**, con un enfoque práctico, progresivo y real.
 
 ---
 
 ## 🎯 Objetivo
 
-Aprender Git y GitHub de forma clara, paso a paso, hasta poder:
+Aprender Git y GitHub paso a paso hasta poder:
 
 * Trabajar en equipo con repositorios reales
-* Usar buenas prácticas profesionales
-* Entender cómo funciona Git por dentro
-* Estar listo para certificaciones de GitHub
+* Aplicar buenas prácticas profesionales
+* Entender cómo funciona Git internamente
+* Resolver problemas reales
+* Prepararte para certificaciones de GitHub
 
 ---
 
 ## 🚀 Cómo usar este repositorio
 
-Sigue este orden:
+Sigue el orden de aprendizaje:
 
-1. `00-introduction` → Entender qué es Git y cómo estudiar
-2. `01-fundamentals` → Base desde cero
+1. `00-introduction` → Entender qué es Git
+2. `01-fundamentals` → Configuración y primeros pasos
 3. `02-core-concepts` → Cómo funciona Git realmente
-4. `03+` → Comandos, ramas, merge, rebase, etc.
+4. `03+` → Comandos, ramas, colaboración y nivel profesional
 
 👉 No saltes pasos. Todo está conectado.
 
 ---
 
-## 📚 Estructura del contenido
+## 🧠 Enfoque de aprendizaje
 
-* `docs/` → Explicaciones claras por niveles
-* `examples/` → Ejemplos simples
-* `exercises/` → Práctica por nivel
-* `labs/` → Ejercicios guiados paso a paso
-* `projects/` → Simulación de trabajo real
+Este repositorio sigue una progresión real:
+
+* Primero usas Git
+* Luego entiendes cómo funciona
+* Finalmente lo dominas
+
+👉 No memorices comandos. Entiende el sistema.
 
 ---
 
-## 🧠 Qué vas a aprender
+## 📚 Estructura del contenido
+
+* `docs/` → Explicaciones claras por fases
+* `examples/` → Ejemplos simples
+* `exercises/` → Práctica progresiva
+* `labs/` → Ejercicios guiados paso a paso
+* `projects/` → Simulación de escenarios reales
+
+---
+
+## 🧩 Qué vas a aprender
 
 * Git desde cero
-* Manejo de ramas (branching)
+* Flujo de trabajo real
+* Branching y estrategias
 * Merge y resolución de conflictos
 * Rebase y control de historial
-* Trabajo con repos remotos
+* Repositorios remotos
 * Pull Requests y colaboración
 * Buenas prácticas profesionales
 * GitHub (issues, PRs, proyectos, etc.)
@@ -56,18 +70,19 @@ Sigue este orden:
 
 Si quieres certificarte en GitHub:
 
-👉 Completa este repositorio primero.
+👉 Completa este repositorio primero
 
-Aquí está la base real que necesitas.
+Aquí construyes la base real que necesitas.
 
 ---
 
-## 💡 Recomendación
+## 💡 Recomendación clave
 
 No memorices comandos.
-Entiende cómo funciona Git.
 
-Eso es lo que te hace profesional.
+👉 Entiende cómo funciona Git
+
+Eso es lo que te convierte en profesional.
 
 ---
 
@@ -93,10 +108,11 @@ Puedes mejorar este repositorio:
 
 ## 📄 Licencia
 
-Uso libre para aprendizaje.
+MIT License.
 
 ---
 
 ## 🔗 Autor
 
-Copyright (c) 2026 Diego Cueva <diegocueva>
+**Diego Cueva**
+GitHub: https://github.com/diegoaacr

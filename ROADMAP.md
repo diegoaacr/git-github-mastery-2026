@@ -4,188 +4,219 @@ Ruta de aprendizaje para dominar Git y GitHub desde cero hasta nivel profesional
 
 ---
 
-## 🟢 Nivel 1 — Fundamentos
+## 🧠 Cómo usar este roadmap
 
-Empieza aquí si nunca usaste Git.
+Este repositorio está organizado en fases progresivas.
 
-**Objetivo:** entender qué es Git y cómo funciona.
-
-* Qué es Git
-* Sistemas de control de versiones
-* Git vs GitHub
-* Instalación
-* Configuración
-* Crear repositorio (`git init`)
-* Clonar repositorio (`git clone`)
-
-📂 Carpeta:
-
-```
-docs/01-fundamentals
-```
+👉 Sigue el orden de las carpetas
+👉 No saltes pasos
+👉 Git se aprende por capas (uso → comprensión → dominio)
 
 ---
 
-## 🟡 Nivel 2 — Conceptos clave
+## 🟢 Fase 0 — Introducción
 
-Aquí entiendes cómo funciona Git internamente.
+📂 `00-introduction/`
 
-**Objetivo:** comprender el flujo real de trabajo.
+**Objetivo:** entender qué es Git y por qué usarlo.
+
+* Qué es Git
+* Git vs GitHub
+* Por qué es importante
+* Cómo usar este repositorio
+
+---
+
+## 🟡 Fase 1 — Fundamentos
+
+📂 `01-fundamentals/`
+
+**Objetivo:** preparar el entorno y empezar a usar Git.
+
+---
+
+### 🔹 01-concepts
+
+📂 `01-fundamentals/01-concepts/`
+
+* Sistemas de control de versiones
+* Git distribuido vs centralizado
+
+---
+
+### 🔹 02-setup
+
+📂 `01-fundamentals/02-setup/`
+
+* Instalación (Windows / macOS)
+* Configuración de Git
+* SSH vs HTTPS
+* SSH Setup
+* Commit Signing
+* SSH Aliases y múltiples cuentas
+
+---
+
+### 🔹 03-first-steps
+
+📂 `01-fundamentals/03-first-steps/`
+
+* Crear repositorio
+* Primer commit
+* Flujo básico
+* Seguimiento de cambios
+* Visualización de historial
+
+👉 Aquí ya usas Git en la práctica.
+
+---
+
+## 🔵 Fase 2 — Core Concepts
+
+📂 `02-core-concepts/`
+
+**Objetivo:** entender cómo funciona Git internamente.
 
 * Working Directory
 * Staging Area
-* Commits
-* Ciclo de vida de archivos
-* Historial
+* Git Directory (`.git`)
+* File Lifecycle
+* Tracked vs Untracked
+* Commit History
 
-📂 Carpeta:
-
-```
-docs/02-core-concepts
-```
+👉 Aquí entiendes lo que ya hiciste.
 
 ---
 
-## 🔵 Nivel 3 — Comandos básicos
+## 🟣 Fase 3 — Basic Commands
 
-Empiezas a trabajar con Git de verdad.
+📂 `03-basic-commands/`
 
-**Objetivo:** manejar cambios y commits.
+**Objetivo:** dominar los comandos esenciales.
 
 * `git status`
 * `git add`
 * `git commit`
 * `git log`
 * `git diff`
+* `git show`
+* `git rm`
+* `git mv`
+* `.gitignore`
 
-📂 Carpeta:
-
-```
-docs/03-basic-commands
-```
+👉 Aquí pasas de usar Git a controlarlo.
 
 ---
 
-## 🟣 Nivel 4 — Ramas (Branching)
+## 🔴 Fase 4 — Branching
 
-Aprendes a trabajar en paralelo.
+📂 `04-branching/`
 
-**Objetivo:** usar ramas correctamente.
+**Objetivo:** trabajar en paralelo con ramas.
 
-* Crear ramas
-* Cambiar de rama
+* Qué es una rama
+* Crear y cambiar ramas
 * Eliminar ramas
-* Buenas prácticas
-
-📂 Carpeta:
-
-```
-docs/04-branching
-```
+* Naming y visualización
 
 ---
 
-## 🔴 Nivel 5 — Merge
+## 🟤 Fase 5 — Merging
 
-Unir cambios entre ramas.
+📂 `05-merging/`
 
-**Objetivo:** integrar trabajo correctamente.
+**Objetivo:** integrar cambios entre ramas.
 
-* Merge
+* `git merge`
 * Fast-forward
 * Merge commit
 * Conflictos y resolución
 
-📂 Carpeta:
-
-```
-docs/05-merging
-```
-
 ---
 
-## 🟤 Nivel 6 — Rebase
+## ⚫ Fase 6 — Rebasing
 
-Trabajo avanzado con historial.
+📂 `06-rebasing/`
 
 **Objetivo:** mantener historial limpio.
 
-* Rebase
+* `git rebase`
 * Interactive rebase
 * Squash commits
-* Rebase vs merge
-
-📂 Carpeta:
-
-```
-docs/06-rebasing
-```
+* Buenas prácticas
 
 ---
 
-## ⚫ Nivel 7 — Historial
+## 🟠 Fase 7 — History Management
 
-Control total sobre commits.
+📂 `07-history-management/`
 
-**Objetivo:** corregir errores y recuperar cambios.
+**Objetivo:** modificar y recuperar historial.
 
-* Reset
-* Revert
-* Amend
-* Reflog
-
-📂 Carpeta:
-
-```
-docs/07-history-management
-```
+* `git reset`
+* `git revert`
+* `git reflog`
+* Amend commits
+* Recuperación de commits
 
 ---
 
-## 🟠 Nivel 8 — Trabajo con remoto
+## 🟢 Fase 8 — Stashing
 
-Conectar con repositorios en la nube.
+📂 `08-stashing/`
+
+**Objetivo:** guardar cambios temporales.
+
+* `git stash`
+* apply / pop
+* Uso práctico
+
+---
+
+## 🔵 Fase 9 — Tags & Releases
+
+📂 `09-tags-and-releases/`
+
+**Objetivo:** versionar proyectos.
+
+* `git tag`
+* Versionado
+* Releases
+
+---
+
+## 🟣 Fase 10 — Remote Repositories
+
+📂 `10-remote-repositories/`
 
 **Objetivo:** trabajar con repos remotos.
 
 * `git remote`
-* `git push`
-* `git pull`
 * `git fetch`
-* Branches remotas
-
-📂 Carpeta:
-
-```
-docs/10-remote-repositories
-```
+* `git pull`
+* `git push`
+* Upstream y múltiples remotes
 
 ---
 
-## 🟢 Nivel 9 — Colaboración
+## 🔴 Fase 11 — Collaboration
 
-Trabajo en equipo.
+📂 `11-collaboration/`
 
-**Objetivo:** colaborar correctamente.
+**Objetivo:** trabajo en equipo.
 
 * Pull Requests
 * Code Reviews
 * Fork workflow
-* Resolución de conflictos en PR
-
-📂 Carpeta:
-
-```
-docs/11-collaboration
-```
+* Branch protection
 
 ---
 
-## 🔵 Nivel 10 — GitHub
+## 🟤 Fase 12 — GitHub Core
 
-Uso completo de la plataforma.
+📂 `12-github-core/`
 
-**Objetivo:** dominar GitHub.
+**Objetivo:** dominar la plataforma.
 
 * Repositories
 * Issues
@@ -193,38 +224,27 @@ Uso completo de la plataforma.
 * Releases
 * GitHub Flow
 
-📂 Carpeta:
-
-```
-docs/12-github-core
-```
-
 ---
 
-## 🟣 Nivel 11 — Seguridad
+## ⚫ Fase 13 — Security
 
-Buenas prácticas de acceso.
+📂 `13-security/`
 
 **Objetivo:** trabajar de forma segura.
 
-* SSH
-* Tokens
+* SSH keys
+* Personal Access Tokens
 * Secrets
 * Permisos
-
-📂 Carpeta:
-
-```
-docs/13-security
-```
+* Buenas prácticas
 
 ---
 
-## 🔴 Nivel 12 — Git avanzado
+## 🟠 Fase 14 — Advanced Git
 
-Comandos más potentes.
+📂 `14-advanced-git/`
 
-**Objetivo:** resolver problemas complejos.
+**Objetivo:** herramientas avanzadas.
 
 * Cherry-pick
 * Bisect
@@ -232,57 +252,39 @@ Comandos más potentes.
 * Submodules
 * Worktree
 
-📂 Carpeta:
-
-```
-docs/14-advanced-git
-```
-
 ---
 
-## 🟤 Nivel 13 — Workflows profesionales
+## 🟢 Fase 15 — Professional Workflows
 
-Trabajo real en equipos.
+📂 `15-professional-workflows/`
 
-**Objetivo:** trabajar como en empresa.
+**Objetivo:** trabajar como en empresas.
 
 * Git Flow
-* Trunk Based Development
+* Trunk-based development
 * Feature branches
-* Releases
-* Hotfix
-
-📂 Carpeta:
-
-```
-docs/15-professional-workflows
-```
+* Release workflows
+* Monorepo vs multirepo
 
 ---
 
-## ⚫ Nivel 14 — Convenciones
+## 🔵 Fase 16 — Conventions
 
-Estándares profesionales.
+📂 `16-conventions/`
 
-**Objetivo:** mantener orden en proyectos.
+**Objetivo:** estandarización.
 
 * Conventional commits
-* Naming de ramas
+* Naming
 * Versionado semántico
-
-📂 Carpeta:
-
-```
-docs/16-conventions
-```
 
 ---
 
-## 🟠 Nivel 15 — Internals
+## 🟣 Fase 17 — Git Internals
 
-Cómo funciona Git por dentro.
+📂 `17-git-internals/`
 
-**Objetivo:** nivel experto.
+**Objetivo:** entender Git en profundidad.
 
 * Objetos de Git
 * SHA-1
@@ -290,63 +292,45 @@ Cómo funciona Git por dentro.
 * Refs
 * Packfiles
 
-📂 Carpeta:
-
-```
-docs/17-git-internals
-```
-
 ---
 
-## 🧠 Nivel 16 — Troubleshooting
+## 🔴 Fase 18 — Troubleshooting
 
-Resolver problemas reales.
+📂 `18-troubleshooting/`
 
-**Objetivo:** no bloquearte nunca.
+**Objetivo:** resolver problemas reales.
 
 * Errores comunes
 * Conflictos
-* Detached HEAD
-* Recuperación de repos
-
-📂 Carpeta:
-
-```
-docs/18-troubleshooting
-```
+* Debugging
+* Riesgos (force push, etc.)
 
 ---
 
 ## 🧪 Práctica
 
-Aprender haciendo.
+Refuerza el aprendizaje con:
 
-* `examples/` → ejemplos simples
-* `exercises/` → práctica por nivel
+* `examples/` → ejemplos
+* `exercises/` → práctica
 * `labs/` → ejercicios guiados
-* `projects/` → simulación real
+* `projects/` → simulaciones reales
 
 ---
 
-## 🚀 Orden recomendado
-
-Sigue este orden:
-
-1. Fundamentos
-2. Conceptos clave
-3. Comandos básicos
-4. Branching
-5. Merge
-6. Rebase
-7. Remoto
-8. Colaboración
-9. GitHub
-10. Avanzado
-
----
-
-## ⚠️ Importante
+## ⚠️ Regla clave
 
 No avances sin entender lo anterior.
 
-Git se construye por capas.
+Git es acumulativo.
+
+---
+
+## 🚀 Objetivo final
+
+Ser capaz de:
+
+* trabajar en equipo
+* manejar repositorios complejos
+* resolver problemas reales
+* usar Git como herramienta profesional
