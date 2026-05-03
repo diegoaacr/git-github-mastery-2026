@@ -119,4 +119,4 @@ Ahora sabes:
 
 ## 🚀 Siguiente paso
 
-👉 [Working Directory](../02-core-concepts/01-working-directory.md)
+👉 [Working Directory](../../02-core-concepts/01-working-directory.md)
