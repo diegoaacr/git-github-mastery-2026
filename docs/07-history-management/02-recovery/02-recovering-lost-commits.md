@@ -134,4 +134,4 @@ Ya sabes:
 
 ## 🚀 Siguiente paso
 
-👉 [What is Stash](../08-stashing/01-concepts/01-what-is-stash.md)
+👉 [What is Stash](../../08-stashing/01-concepts/01-what-is-stash.md)
