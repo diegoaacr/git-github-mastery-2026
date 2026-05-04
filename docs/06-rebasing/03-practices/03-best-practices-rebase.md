@@ -122,4 +122,4 @@ Ya sabes:
 
 ## 🚀 Siguiente paso
 
-👉 [Git Reset](../07-history-management/01-commands/01-git-reset.md)
+👉 [Git Reset](../../07-history-management/01-commands/01-git-reset.md)
