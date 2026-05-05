@@ -14,19 +14,19 @@ Entender qué es un tag y para qué se usa.
 
 Un tag marca un punto específico en la historia del proyecto.
 
-👉 normalmente usado para versiones
+👉 normalmente se usa para versiones.
 
 ---
 
 ## 🧩 Ejemplo
 
-```bash id="t1"
+```bash
 A → B → C → D
         ↑
        v1.0
 ```
 
-👉 `v1.0` apunta al commit `C`
+👉 `v1.0` apunta al commit `C`.
 
 ---
 
@@ -40,24 +40,24 @@ Un tag es como una etiqueta fija en el historial.
 
 Un tag no cambia.
 
-👉 siempre apunta al mismo commit
+👉 siempre apunta al mismo commit.
 
 ---
 
 ## 💡 Para qué se usa
 
-* marcar versiones (v1.0, v2.0)
-* releases
-* puntos importantes del proyecto
+* marcar versiones (`v1.0.0`, `v2.0.0`)
+* crear releases
+* señalar puntos importantes del proyecto
 
 ---
 
 ## 🧠 En el mundo real
 
-```bash id="t2"
-v1.0 → primera versión estable  
-v1.1 → mejoras  
-v2.0 → nueva versión  
+```bash
+v1.0.0 → primera versión estable
+v1.1.0 → mejoras
+v2.0.0 → nueva versión importante
 ```
 
 ---
@@ -69,39 +69,28 @@ v2.0 → nueva versión
 
 ---
 
-## 💡 Ejemplo real
-
-```bash id="t3"
-main → desarrollo continuo  
-tag → snapshot de versión  
-```
-
----
-
 ## ⚠️ Errores comunes
 
 * confundir tag con branch
 * no usar tags en releases
-* modificar tags
+* crear tags sin saber en qué commit estás
 
 ---
 
 ## 💡 Buenas prácticas
 
 * usar nombres claros (`v1.0.0`)
-* usar tags en producción
+* usar tags para versiones importantes
 * mantener consistencia
 
 ---
 
 ## 🧠 Conexión con lo siguiente
 
-Ahora aprenderás:
-
-👉 cómo crear tags
+Ahora aprenderás la diferencia entre tipos de tags.
 
 ---
 
 ## 🚀 Siguiente paso
 
-👉 [Git Tag](../02-commands/01-git-tag.md)
+👉 [Lightweight vs Annotated Tags](./02-lightweight-vs-annotated.md)
